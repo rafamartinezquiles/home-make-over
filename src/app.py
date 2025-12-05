@@ -4,9 +4,9 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
-from .styles import STYLE_PRESETS
-from .makeover import RoomMakeoverModel
-from .utils import load_image
+from styles import STYLE_PRESETS
+from makeover import RoomMakeoverModel
+from utils import load_image
 
 # --- Streamlit page config ---
 st.set_page_config(
