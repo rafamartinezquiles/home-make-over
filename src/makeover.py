@@ -4,8 +4,8 @@ import torch
 from diffusers import StableDiffusionImg2ImgPipeline
 from PIL import Image
 
-from .styles import STYLE_PRESETS, BASE_PROMPT, NEGATIVE_PROMPT
-from .utils import resize_for_model, set_seed
+from styles import STYLE_PRESETS, BASE_PROMPT, NEGATIVE_PROMPT
+from utils import resize_for_model, set_seed
 
 
 class RoomMakeoverModel:
