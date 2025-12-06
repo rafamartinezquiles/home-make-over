@@ -61,3 +61,12 @@ pip install -r requirements.txt
 ```bash
 set HUGGINGFACE_HUB_TOKEN=your_token_here
 ```
+
+## Usage
+To run the AI room-restyling app, launch the Streamlit interface using the command below. Once the application opens in your browser, upload a photo of any room, choose one of the available design styles, and click “Restyle my room” to generate a photorealistic makeover of the same space.
+
+```bash
+streamlit run src/app.py
+```
+
+The app will load the AI model, display your original image, and render a redesigned version based on your selected style. You can preview the result directly in the interface and download the transformed image with a single click.
