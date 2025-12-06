@@ -6,3 +6,25 @@ Restyling an interior space traditionally requires professional design expertise
 
 This project leverages diffusion models, PyTorch, and custom prompt engineering to automatically generate magazine-quality room makeovers in a wide range of styles. Users upload a room photo, select a design direction, and the system produces a photorealistic transformation consistent with real-world textures and lighting. The goal is to demonstrate how generative AI can democratize interior design, enabling non-technical users to visualize professional-level makeovers instantly.
 ![](images/working.png)
+
+## Table of Contents
+```
+home-make-over
+|__ images
+|   |__ living_room_input.png 
+|   |__ working.png
+|__ src
+    |__ app.py
+    |__ makeover.py
+    |__ styles.py
+    |__ utils.py
+README.md
+LICENSE
+requirements.txt
+```
+
+## Getting started
+
+### Resources used
+A high-performance Acer Nitro 5 laptop, powered by an Intel Core i7 processor and an NVIDIA GeForce GTX 1650 GPU (4 GB VRAM), was used for model training and evaluation. Due to the large size of the dataset, the training process was computationally demanding and prolonged. Nevertheless, this hardware configuration provided a stable and efficient environment, enabling consistent experimentation and reliable validation of the gesture-recognition models.
+
