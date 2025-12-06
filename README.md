@@ -1,1 +1,7 @@
-# AR Home Makeover: “See This Room in Any Style”
+# AI-Powered Interior Restyling: Automated Room Makeover Using Generative Computer Vision
+Using advanced computer vision and generative AI models—including Stable Diffusion, Diffusers, PyTorch, and OpenCV—to transform interior room photographs into photorealistic restyled designs while preserving the original spatial layout.
+
+## Overview and Background
+Restyling an interior space traditionally requires professional design expertise, manual rendering, and time-consuming 3D workflows. Recent advances in generative computer vision, particularly Stable Diffusion’s image-to-image capabilities, enable realistic, high-quality visual transformations from a single photograph. By guiding the model with curated interior-design style prompts, it becomes possible to alter furniture, materials, colors, and ambiance while preserving the room’s original geometry and camera perspective.
+
+This project leverages diffusion models, PyTorch, and custom prompt engineering to automatically generate magazine-quality room makeovers in a wide range of styles. Users upload a room photo, select a design direction, and the system produces a photorealistic transformation consistent with real-world textures and lighting. The goal is to demonstrate how generative AI can democratize interior design, enabling non-technical users to visualize professional-level makeovers instantly.
